@@ -1,0 +1,103 @@
+h1 {
+  color: #575F7D;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+}
+
+p,h2 {
+  color: #575F7D;
+  font-family: 'Lora', serif;
+  margin-bottom: 35px;
+}
+.border-radius {
+  border-radius: 50%;
+}
+
+#wow_link{
+  text-decoration: none;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: #29be42;
+  border-radius: 5px;
+  padding: 13px 18px;
+
+}
+
+
+#wow_link:hover{
+  transition: 0.3s;
+  background-color: black;
+}
+.text-green{
+  color: #7ECE90;
+}
+
+
+.button-size{
+  font-size: 45px;
+  list-style-type: none;
+}
+ul{
+  padding: 0px;
+  margin: 0px;
+}
+li{
+  display: inline;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+a{
+ text-decoration: none;
+}
+
+a :hover{
+  transition: 0.6S;
+  font-size: smaller;
+
+}
+
+body{
+  background: url(images/Digital_rain_animation_medium_letters_shine.gif);
+  font-size: 17px;
+}
+.white-card{
+  margin-bottom: 40px;
+  background: whitesmoke;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  text-align: center;
+}
+.container{
+  width: 1000px;
+  margin: 40px auto;
+}
+
+.shadow {
+  -moz-box-shadow:    inset 0 0 20px #000000;
+  -webkit-box-shadow: inset 0 0 20px #000000;
+  box-shadow:         inset 0 0 20px #000000;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
